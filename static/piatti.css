@@ -125,8 +125,7 @@ nav ul::-webkit-scrollbar {
 	align-items: center;
 	font-size: 2.5vh;
 	font-family: MyFontBold;
-	border-bottom: solid 5px #FFC83C;
-	margin: 2% 0;
+	margin: 3% 0;
 }
 
 .primi .row .pietanza, .secondi .row .pietanza, .contorni .row .pietanza{

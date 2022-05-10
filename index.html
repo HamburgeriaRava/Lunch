@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Panini</title>
 	<link rel="stylesheet" type="text/css" href="static/panini.css">
+  <link rel="stylesheet" type="text/css" href="static/piatti.css">
 </head>
 <body>
   <nav>
@@ -11,14 +12,18 @@
    <h3>Panini</h3>
    <ul>
     <li onclick="piatti()">Al Piatto</li>
-    <li>Bevande</li>
-    <li>Dessert</li>
-    <li>Aperitivi</li>
-    <li>Caffetteria</li>
+    <li onclick="bevande()">Bevande</li>
+    <li onclick="dessert()">Dessert</li>
+    <li onclick="aperitivi()">Aperitivi</li>
+    <li onclick="caffetteria()">Caffetteria</li>
    </ul>
   </nav>
   <div id="component" class="component">
-  <!--   <div class="panino"><div class="titolo"></div><div class="foto"></div><div class="descrizione"></div><div class="prezzo"></div> --></div>
+  </div>
+  <div id="component2" class="component2">
+  <div class="primi" id="primi">
+    <h1>Fried</h1>
+  </div>
   </div>
 
   <script src="https://unpkg.com/@supabase/supabase-js"></script>
